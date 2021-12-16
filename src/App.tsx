@@ -1,8 +1,11 @@
-import React from 'react';
+import { GlobalStyle } from "./styles/global";
 
 function App() {
   return (
-   <h1>Ola</h1>
+    <div className="app">
+      <h1>Oi</h1> 
+      <GlobalStyle />
+    </div>
   );
 }
 
